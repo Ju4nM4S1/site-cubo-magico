@@ -1,0 +1,342 @@
+body{
+    font-family: 'Chilanka', cursive;
+}
+
+main {
+    background-color: #f5efee;
+}
+/*111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111*/
+/*cabeçalho*/
+.cabeçalho{
+	background: #bbbbbb;
+	padding: 20px 0;
+}
+
+.navegacao .lista_nav{
+	display: inline;    
+	margin: 0 0 0 25px;
+}
+
+.navegacao .links {
+	text-transform: uppercase ;
+	color: #000000;
+	font-weight: bold;
+	font-size: 25px;
+	text-decoration: none;
+	text-shadow: 5px 5px 5px #615B59;
+}
+.navegacao .links:hover {
+	color: #FF0000;
+	font-size: 30px;
+	text-decoration: underline;
+}
+
+.caixa{
+	width: 940px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.navegacao{
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+
+/*rodape*/
+.rodape {
+	text-align: center;
+	background-color: #291E1E;
+	color: #FFFFFF;
+	padding: 40px 0;
+} 
+
+.P_rodape{
+	color: #FFFFFF;
+	font-size: 13px;
+	margin-top: 20px ;
+}
+/*111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111*/
+
+
+/*222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222*/
+/*Home main*/
+
+.home_ul {
+	width: 940px;
+	margin: 0px auto;
+	padding: 50px 0;
+}
+
+	.home_ul .lista_home {
+		display: inline-block;
+		text-align: center;
+		width: 32%;
+		vertical-align: top;
+		padding: 20px 20px;
+		box-sizing: border-box;
+	}
+
+	.home_ul .h2_home{
+		color: #000000;
+		font-weight: bold;
+		font-size: 25px;
+	}
+
+	.home_ul .fotos_home:hover {
+		width: 300px; height: 300px;
+	}
+
+
+/*222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222*/
+
+
+/*333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333*/
+/*como montar main*/
+.passo {
+	width: 940px;
+	margin: 0px auto;
+	padding: 50px 0;
+}
+
+.passo .lista_pag1 {
+	display: inline-block;
+	text-align: center;
+	width: 32%;
+	vertical-align: top;
+	padding: 20px 20px;
+	box-sizing: border-box;
+}
+
+.passo .h2_pag1{
+	color: #000000;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.passo .p_pag1{
+	font-size: 20px;
+}
+
+.passo .fotos_pag1:hover {
+	width: 300px; height: 300px;
+}
+	
+
+/*333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333*/
+
+/*444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444*/
+/*peças main*/
+.passo2 {
+	width: 940px;
+	margin: 0px auto;
+	padding: 50px 0;
+}
+
+.passo2 .lista_pag2 {
+	display: inline-block;
+	text-align: center;
+	width: 29%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 0px 20px;
+	box-sizing: border-box;
+}
+
+.passo2 .h2_pag2{
+	color: #000000;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.passo2 .p_pag2{
+	font-size: 20px;
+}
+
+.passo2 .fotos_pag2:hover {
+	width: 300px; height: 300px;	
+}
+
+.paragrafo {
+	font-size: 20px;
+	text-align: center;
+	padding: 50px 0;
+}
+
+/*444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444*/
+
+/*555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555*/
+/*movimentos main*/
+.passo3 {
+	width: 940px;
+	margin: 0px auto;
+	padding: 50px 0;
+}
+
+.passo3 .lista_pag3 {
+	display: inline-block;
+	text-align: center;
+	width: 29%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 0px 20px;
+	box-sizing: border-box;
+}
+
+.passo3 .h2_pag3{
+	color: #000000;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.passo3 .p_pag3{
+	font-size: 20px;
+}
+
+.passo3 .fotos_pag3:hover {
+	width: 300px; height: 300px;	
+}
+
+
+/*555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555*/
+
+/*666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666*/
+/* Movimentos main */
+.itens {
+	width: 940px;
+	margin: 0px auto;
+	padding: 50px 0;
+}
+
+.itens li {
+	display: inline-block;
+	text-align: center;
+	width: 32%;
+	vertical-align: top;
+	padding: 20px 20px;
+	box-sizing: border-box;
+}
+
+.itens h2{
+	color: #000000;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.itens p{
+	font-size: 20px;
+}
+
+/*666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666*/
+
+/*777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777*/
+/* passo1 main */
+.lista_recordes {
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	vertical-align: top;
+	padding: 20px 20px;
+	box-sizing: border-box;
+}
+
+.p_recordes {
+	padding: 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) { 
+    .caixa , .passo , .itens , .passo2 , .home_ul {
+        width: auto;
+    }
+
+	.passo .fotos_pag1 , .itens img {
+		width: 100px; height: 100px;	
+	}
+
+	.passo .lista_pag1 , .itens li {
+		display: inline-block;
+		text-align: center;
+		width: 49%;
+		vertical-align: top;
+		padding: 20px 20px;
+		box-sizing: border-box;
+	}
+	
+
+	h1 {
+		text-align: center;
+		
+	}
+
+	h1 img {
+		width: 130px; height: 130px;
+	}
+
+	.navegacao {
+		position:static;
+		text-align: center;
+	}
+
+	.navegacao .links {
+		font-size: 15px;
+	}
+
+	.navegacao .lista_nav {
+		margin: 0 0 0 8px;
+	}
+
+	.navegacao .links:hover {
+		color: #000000;
+		font-size: 15px;
+		text-decoration: none;
+	}
+
+	.passo2 .lista_pag2 {
+		display: inline-block;
+		text-align: center;
+		width: 98%;
+		vertical-align: top;
+		padding: 20px 20px;
+		box-sizing: border-box;
+	}
+
+	.fotos_pag2 {
+		width: 170px; height: 170px;
+	}
+
+	.home_ul .lista_home {
+		display: inline-block;
+		text-align: center;
+		width: 98%;
+		vertical-align: top;
+		padding: 20px 20px;
+		box-sizing: border-box;
+	}
+
+	.fotos_home{
+		width: 170px; height: 170px;
+	}
+}
